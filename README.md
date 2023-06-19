@@ -54,7 +54,7 @@ For evaluation, you can change the `batch_size` without affecting results.
 <a name="train"/>
 
 ## Training
-The following commands can be used to train our X-Pool model for each dataset. Again, the evaluation is by default set to generate results for text-to-video retrieval (t2v). For video-to-text retrieval (v2t) results, add the argument `--metric=v2t` to the command.
+The following commands can be used to train the model for each dataset. Again, the evaluation is by default set to generate results for text-to-video retrieval (t2v). For video-to-text retrieval (v2t) results, add the argument `--metric=v2t` to the command.
 
 For each command below, replace `{exp_name}` with your choice name of experiment. Also, replace `{videos_dir}` with the path to the dataset's videos.
   
