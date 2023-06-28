@@ -1,7 +1,7 @@
 <div align="center">
 <h1>
 <b>
-BLIP: video-text similarity with Cross-transformer Encoder
+BLIP: Modified of sota video-text similarity with Cross-transformer Encoder
 </b>
 </h1>
 <h4>
