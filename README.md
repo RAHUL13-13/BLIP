@@ -46,10 +46,10 @@ For evaluation, you can change the `batch_size` without affecting results.
 
 | Dataset | Command | Checkpoint File | t2v R@1 Result |
 |:-----------:|:-----------:| :-----------: | :-----------: |
-|MSR-VTT-9k|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSRVTT --msrvtt_train_file=9k`| [Link](https://drive.google.com/file/d/1M2Y41B3a3AxzSJn-n-Xh0Edds97NU1ND/view?usp=sharing)       | 46.9| |
-|MSR-VTT-7k|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSRVTT --msrvtt_train_file=7k`| [Link](https://drive.google.com/file/d/1KW6VQiiTHpfMcK8GIgRq-5aWAgf7rGPj/view?usp=sharing)       | 43.9| |
-|MSVD|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSVD`| [Link](https://drive.google.com/file/d/1c1iV6V00hnvZPTfLdWSFV2adUNWC2-zk/view?usp=sharing)       | 47.2| |
-|LSMDC|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=LSMDC`| [Link](https://drive.google.com/file/d/1vQiQjVg6kX1u4T2HmalrydSZYQ0fAbX_/view?usp=sharing)       |25.2| |
+|MSR-VTT-9k|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSRVTT --msrvtt_train_file=9k`| [Link](https://drive.google.com/file/d/1M2Y41B3a3AxzSJn-n-Xh0Edds97NU1ND/view?usp=sharing)       | | |
+|MSR-VTT-7k|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSRVTT --msrvtt_train_file=7k`| [Link](https://drive.google.com/file/d/1KW6VQiiTHpfMcK8GIgRq-5aWAgf7rGPj/view?usp=sharing)       | | |
+|MSVD|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=MSVD`| [Link](https://drive.google.com/file/d/1c1iV6V00hnvZPTfLdWSFV2adUNWC2-zk/view?usp=sharing)       | | |
+|LSMDC|`python test.py --exp_name={exp_name} --videos_dir={videos_dir} --batch_size=32 --huggingface --load_epoch=-1 --dataset_name=LSMDC`| [Link](https://drive.google.com/file/d/1vQiQjVg6kX1u4T2HmalrydSZYQ0fAbX_/view?usp=sharing)       || |
 
 <a name="train"/>
 
