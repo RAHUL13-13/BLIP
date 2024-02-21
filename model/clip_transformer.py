@@ -23,6 +23,7 @@ class CLIPTransformer(nn.Module):
         
         config.pooling_type = 'transformer'
         self.pool_frames = Transformer(config)
+        blip = DataParallel(model, device_ids=self.device_ids)
     
     def forward(self, data, return_all_frames=False):
         batch_size = data['video'].shape[0]
@@ -36,7 +37,6 @@ class CLIPTransformer(nn.Module):
         
         model = self.blip.to(torch.device('cuda:2'))
         
-        blip = DataParallel(model, device_ids=self.device_ids)
         video_features = blip(video_data)
         
         # print(len(text_data['input_ids']), video_data.shape)
