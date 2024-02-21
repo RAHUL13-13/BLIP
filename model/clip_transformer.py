@@ -41,7 +41,7 @@ class CLIPTransformer(nn.Module):
         
         # print(len(text_data['input_ids']), video_data.shape)
         
-        text_features = self.blip.blip.get_text_features(**text_data)
+        text_features = self.blip.get_text_features(**text_data)
         # print(video_features.shape, text_features.shape)
         
         video_features = video_features.reshape(batch_size, self.config.num_frames, -1)
